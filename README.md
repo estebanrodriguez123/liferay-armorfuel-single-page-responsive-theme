@@ -1,2 +1,2 @@
-# liferay-consulting-theme
-Liferay Theme: Consulting
+# liferay-armorfuel-single-Page-responsive-theme
+Liferay Theme: ArmorFuel Single Page Responsive Theme
