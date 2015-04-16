@@ -1,2 +1,2 @@
-# liferay-armorfuel-single-Page-responsive-theme
+# liferay-armorfuel-single-page-responsive-theme
 Liferay Theme: ArmorFuel Single Page Responsive Theme
