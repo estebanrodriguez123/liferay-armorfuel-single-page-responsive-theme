@@ -1,5 +1,5 @@
 <root available-locales="en_US" default-locale="en_US">
-	<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Title" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
+	<dynamic-element dataType="string" indexType="keyword"  name="Title" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
 		<meta-data locale="en_US">
 			<entry name="label">
 				<![CDATA[Title]]>
@@ -12,7 +12,7 @@
 			</entry>
 		</meta-data>
 	</dynamic-element>
-	<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Description" readOnly="false" repeatable="false" required="false" showLabel="true" type="textarea" width="small">
+	<dynamic-element dataType="string" indexType="keyword"  name="Description" readOnly="false" repeatable="false" required="false" showLabel="true" type="textarea" width="small">
 		<meta-data locale="en_US">
 			<entry name="label">
 				<![CDATA[Description]]>
@@ -25,7 +25,7 @@
 			</entry>
 		</meta-data>
 	</dynamic-element>
-	<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Google_Map_Latitude" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
+	<dynamic-element dataType="string" indexType="keyword"  name="Google_Map_Latitude" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
 		<meta-data locale="en_US">
 			<entry name="label">
 				<![CDATA[Google Map Latitude]]>
@@ -38,7 +38,7 @@
 			</entry>
 		</meta-data>
 	</dynamic-element>
-	<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Google_Map_Longitude" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
+	<dynamic-element dataType="string" indexType="keyword"  name="Google_Map_Longitude" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
 		<meta-data locale="en_US">
 			<entry name="label">
 				<![CDATA[Google Map Longitude]]>
@@ -51,7 +51,7 @@
 			</entry>
 		</meta-data>
 	</dynamic-element>
-	<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Form_Title" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
+	<dynamic-element dataType="string" indexType="keyword"  name="Form_Title" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
 		<meta-data locale="en_US">
 			<entry name="label">
 				<![CDATA[Form Title]]>
@@ -64,7 +64,7 @@
 			</entry>
 		</meta-data>
 	</dynamic-element>
-	<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Form_Action_Url" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
+	<dynamic-element dataType="string" indexType="keyword"  name="Form_Action_Url" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
 		<meta-data locale="en_US">
 			<entry name="label">
 				<![CDATA[Form Action Url]]>
@@ -77,7 +77,7 @@
 			</entry>
 		</meta-data>
 	</dynamic-element>
-	<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Address" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
+	<dynamic-element dataType="string" indexType="keyword"  name="Address" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
 		<meta-data locale="en_US">
 			<entry name="label">
 				<![CDATA[Address]]>
@@ -90,7 +90,7 @@
 			</entry>
 		</meta-data>
 	</dynamic-element>
-	<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Email" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
+	<dynamic-element dataType="string" indexType="keyword"  name="Email" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
 		<meta-data locale="en_US">
 			<entry name="label">
 				<![CDATA[Email]]>
@@ -103,7 +103,7 @@
 			</entry>
 		</meta-data>
 	</dynamic-element>
-	<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Phone" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
+	<dynamic-element dataType="string" indexType="keyword"  name="Phone" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
 		<meta-data locale="en_US">
 			<entry name="label">
 				<![CDATA[Phone]]>
@@ -116,7 +116,7 @@
 			</entry>
 		</meta-data>
 	</dynamic-element>
-	<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Facebook_Link" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
+	<dynamic-element dataType="string" indexType="keyword"  name="Facebook_Link" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
 		<meta-data locale="en_US">
 			<entry name="label">
 				<![CDATA[Facebook Link]]>
@@ -129,7 +129,7 @@
 			</entry>
 		</meta-data>
 	</dynamic-element>
-	<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Twitter_Link" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
+	<dynamic-element dataType="string" indexType="keyword"  name="Twitter_Link" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
 		<meta-data locale="en_US">
 			<entry name="label">
 				<![CDATA[Twitter Link]]>
@@ -142,7 +142,7 @@
 			</entry>
 		</meta-data>
 	</dynamic-element>
-	<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Linked_in_Link" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
+	<dynamic-element dataType="string" indexType="keyword"  name="Linked_in_Link" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
 		<meta-data locale="en_US">
 			<entry name="label">
 				<![CDATA[Linked in Link]]>
@@ -155,7 +155,7 @@
 			</entry>
 		</meta-data>
 	</dynamic-element>
-	<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Pinterest_Link" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
+	<dynamic-element dataType="string" indexType="keyword"  name="Pinterest_Link" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
 		<meta-data locale="en_US">
 			<entry name="label">
 				<![CDATA[Pinterest Link]]>
@@ -168,7 +168,7 @@
 			</entry>
 		</meta-data>
 	</dynamic-element>
-	<dynamic-element dataType="string" indexType="keyword" localizable="true" name="YouTube_Link" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
+	<dynamic-element dataType="string" indexType="keyword"  name="YouTube_Link" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
 		<meta-data locale="en_US">
 			<entry name="label">
 				<![CDATA[YouTube Link]]>
@@ -181,7 +181,7 @@
 			</entry>
 		</meta-data>
 	</dynamic-element>
-	<dynamic-element dataType="boolean" indexType="keyword" localizable="true" name="show_facebook_link" readOnly="false" repeatable="false" required="false" showLabel="true" type="checkbox" width="">
+	<dynamic-element dataType="boolean" indexType="keyword"  name="show_facebook_link" readOnly="false" repeatable="false" required="false" showLabel="true" type="checkbox" width="">
 		<meta-data locale="en_US">
 			<entry name="label">
 				<![CDATA[show facebook link]]>
@@ -194,7 +194,7 @@
 			</entry>
 		</meta-data>
 	</dynamic-element>
-	<dynamic-element dataType="boolean" indexType="keyword" localizable="true" name="show_twitter_link" readOnly="false" repeatable="false" required="false" showLabel="true" type="checkbox" width="">
+	<dynamic-element dataType="boolean" indexType="keyword"  name="show_twitter_link" readOnly="false" repeatable="false" required="false" showLabel="true" type="checkbox" width="">
 		<meta-data locale="en_US">
 			<entry name="label">
 				<![CDATA[show twitter link]]>
@@ -207,7 +207,7 @@
 			</entry>
 		</meta-data>
 	</dynamic-element>
-	<dynamic-element dataType="boolean" indexType="keyword" localizable="true" name="show_linkedin_link" readOnly="false" repeatable="false" required="false" showLabel="true" type="checkbox" width="">
+	<dynamic-element dataType="boolean" indexType="keyword"  name="show_linkedin_link" readOnly="false" repeatable="false" required="false" showLabel="true" type="checkbox" width="">
 		<meta-data locale="en_US">
 			<entry name="label">
 				<![CDATA[show linkedin link]]>
@@ -220,7 +220,7 @@
 			</entry>
 		</meta-data>
 	</dynamic-element>
-	<dynamic-element dataType="boolean" indexType="keyword" localizable="true" name="show_pinterest_link" readOnly="false" repeatable="false" required="false" showLabel="true" type="checkbox" width="">
+	<dynamic-element dataType="boolean" indexType="keyword"  name="show_pinterest_link" readOnly="false" repeatable="false" required="false" showLabel="true" type="checkbox" width="">
 		<meta-data locale="en_US">
 			<entry name="label">
 				<![CDATA[show pinterest link]]>
@@ -233,7 +233,7 @@
 			</entry>
 		</meta-data>
 	</dynamic-element>
-	<dynamic-element dataType="boolean" indexType="keyword" localizable="true" name="show_youtube_link" readOnly="false" repeatable="false" required="false" showLabel="true" type="checkbox" width="">
+	<dynamic-element dataType="boolean" indexType="keyword"  name="show_youtube_link" readOnly="false" repeatable="false" required="false" showLabel="true" type="checkbox" width="">
 		<meta-data locale="en_US">
 			<entry name="label">
 				<![CDATA[show youtube link]]>
