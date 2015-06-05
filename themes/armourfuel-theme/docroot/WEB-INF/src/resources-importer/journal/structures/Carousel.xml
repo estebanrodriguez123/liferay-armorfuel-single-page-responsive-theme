@@ -1,7 +1,7 @@
 
 <root available-locales="en_US" default-locale="en_US">
-	<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Slides" readOnly="false" repeatable="true" required="false" showLabel="true" type="text" width="small">
-		<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Title" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
+	<dynamic-element dataType="string" indexType="keyword"  name="Slides" readOnly="false" repeatable="true" required="false" showLabel="true" type="text" width="small">
+		<dynamic-element dataType="string" indexType="keyword"  name="Title" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
 			<meta-data locale="en_US">
 				<entry name="label">
 					<![CDATA[Title]]>
@@ -14,7 +14,7 @@
 				</entry>
 			</meta-data>
 		</dynamic-element>
-		<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Subtitle" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
+		<dynamic-element dataType="string" indexType="keyword"  name="Subtitle" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
 			<meta-data locale="en_US">
 				<entry name="label">
 					<![CDATA[Subtitle]]>
@@ -27,7 +27,7 @@
 				</entry>
 			</meta-data>
 		</dynamic-element>
-		<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Description" readOnly="false" repeatable="false" required="false" showLabel="true" type="textarea" width="small">
+		<dynamic-element dataType="string" indexType="keyword"  name="Description" readOnly="false" repeatable="false" required="false" showLabel="true" type="textarea" width="small">
 			<meta-data locale="en_US">
 				<entry name="label">
 					<![CDATA[Description]]>
@@ -40,7 +40,7 @@
 				</entry>
 			</meta-data>
 		</dynamic-element>
-		<dynamic-element dataType="document-library" fieldNamespace="ddm" indexType="keyword" localizable="true" name="Img" readOnly="false" repeatable="false" required="false" showLabel="true" type="ddm-documentlibrary" width="">
+		<dynamic-element dataType="document-library" fieldNamespace="ddm" indexType="keyword"  name="Img" readOnly="false" repeatable="false" required="false" showLabel="true" type="ddm-documentlibrary" width="">
 			<meta-data locale="en_US">
 				<entry name="label">
 					<![CDATA[Img]]>
@@ -53,7 +53,7 @@
 				</entry>
 			</meta-data>
 		</dynamic-element>
-		<dynamic-element dataType="link-to-page" fieldNamespace="ddm" indexType="keyword" localizable="true" name="Link" readOnly="false" repeatable="false" required="false" showLabel="true" type="ddm-link-to-page" width="small">
+		<dynamic-element dataType="link-to-page" fieldNamespace="ddm" indexType="keyword"  name="Link" readOnly="false" repeatable="false" required="false" showLabel="true" type="ddm-link-to-page" width="small">
 			<meta-data locale="en_US">
 				<entry name="label">
 					<![CDATA[Link]]>
@@ -78,7 +78,7 @@
 			</entry>
 		</meta-data>
 	</dynamic-element>
-	<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Carousel_Width" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
+	<dynamic-element dataType="string" indexType="keyword"  name="Carousel_Width" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
 		<meta-data locale="en_US">
 			<entry name="label">
 				<![CDATA[Carousel Width]]>
@@ -91,7 +91,7 @@
 			</entry>
 		</meta-data>
 	</dynamic-element>
-	<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Carousel_Height" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
+	<dynamic-element dataType="string" indexType="keyword"  name="Carousel_Height" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
 		<meta-data locale="en_US">
 			<entry name="label">
 				<![CDATA[Carousel Height]]>
@@ -104,7 +104,7 @@
 			</entry>
 		</meta-data>
 	</dynamic-element>
-	<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Interval_Time" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
+	<dynamic-element dataType="string" indexType="keyword"  name="Interval_Time" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
 		<meta-data locale="en_US">
 			<entry name="label">
 				<![CDATA[Interval Time]]>

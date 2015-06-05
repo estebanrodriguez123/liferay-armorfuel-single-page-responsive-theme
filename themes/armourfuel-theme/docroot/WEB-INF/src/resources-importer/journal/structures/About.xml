@@ -1,5 +1,5 @@
 <root available-locales="en_US" default-locale="en_US">
-	<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Title" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
+	<dynamic-element dataType="string" indexType="keyword" name="Title" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small" >
 		<meta-data locale="en_US">
 			<entry name="label">
 				<![CDATA[Title]]>
@@ -12,7 +12,7 @@
 			</entry>
 		</meta-data>
 	</dynamic-element>
-	<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Description" readOnly="false" repeatable="false" required="false" showLabel="true" type="textarea" width="small">
+	<dynamic-element dataType="string" indexType="keyword" name="Description" readOnly="false" repeatable="false" required="false" showLabel="true" type="textarea" width="small">
 		<meta-data locale="en_US">
 			<entry name="label">
 				<![CDATA[Description]]>
@@ -25,8 +25,8 @@
 			</entry>
 		</meta-data>
 	</dynamic-element>
-	<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Team1" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
-		<dynamic-element dataType="document-library" fieldNamespace="ddm" indexType="keyword" localizable="true" name="Image1" readOnly="false" repeatable="false" required="false" showLabel="true" type="ddm-documentlibrary" width="">
+	<dynamic-element dataType="string" indexType="keyword"  name="Team1" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
+		<dynamic-element dataType="document-library" fieldNamespace="ddm" indexType="keyword"  name="Image1" readOnly="false" repeatable="false" required="false" showLabel="true" type="ddm-documentlibrary" width="">
 			<meta-data locale="en_US">
 				<entry name="label">
 					<![CDATA[Image1]]>
@@ -39,7 +39,7 @@
 				</entry>
 			</meta-data>
 		</dynamic-element>
-		<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Job_Title1" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
+		<dynamic-element dataType="string" indexType="keyword"  name="Job_Title1" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
 			<meta-data locale="en_US">
 				<entry name="label">
 					<![CDATA[Job Title1]]>
@@ -52,8 +52,8 @@
 				</entry>
 			</meta-data>
 		</dynamic-element>
-		<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Job_Description1" readOnly="false" repeatable="false" required="false" showLabel="true" type="textarea" width="small">
-			<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Facebook_Link1" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
+		<dynamic-element dataType="string" indexType="keyword"  name="Job_Description1" readOnly="false" repeatable="false" required="false" showLabel="true" type="textarea" width="small">
+			<dynamic-element dataType="string" indexType="keyword"  name="Facebook_Link1" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
 				<meta-data locale="en_US">
 					<entry name="label">
 						<![CDATA[Facebook Link1]]>
@@ -66,7 +66,7 @@
 					</entry>
 				</meta-data>
 			</dynamic-element>
-			<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Twitter_Link1" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
+			<dynamic-element dataType="string" indexType="keyword"  name="Twitter_Link1" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
 				<meta-data locale="en_US">
 					<entry name="label">
 						<![CDATA[Twitter Link1]]>
@@ -79,7 +79,7 @@
 					</entry>
 				</meta-data>
 			</dynamic-element>
-			<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Linked_in_Link1" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
+			<dynamic-element dataType="string" indexType="keyword"  name="Linked_in_Link1" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
 				<meta-data locale="en_US">
 					<entry name="label">
 						<![CDATA[Linked in Link1]]>
@@ -104,7 +104,7 @@
 				</entry>
 			</meta-data>
 		</dynamic-element>
-		<dynamic-element dataType="boolean" indexType="keyword" localizable="true" name="Show_Facebook_Link1" readOnly="false" repeatable="false" required="false" showLabel="true" type="checkbox" width="">
+		<dynamic-element dataType="boolean" indexType="keyword"  name="Show_Facebook_Link1" readOnly="false" repeatable="false" required="false" showLabel="true" type="checkbox" width="">
 			<meta-data locale="en_US">
 				<entry name="label">
 					<![CDATA[Show Facebook Link1]]>
@@ -117,7 +117,7 @@
 				</entry>
 			</meta-data>
 		</dynamic-element>
-		<dynamic-element dataType="boolean" indexType="keyword" localizable="true" name="Show_Twitter_Link1" readOnly="false" repeatable="false" required="false" showLabel="true" type="checkbox" width="">
+		<dynamic-element dataType="boolean" indexType="keyword"  name="Show_Twitter_Link1" readOnly="false" repeatable="false" required="false" showLabel="true" type="checkbox" width="">
 			<meta-data locale="en_US">
 				<entry name="label">
 					<![CDATA[Show Twitter Link1]]>
@@ -130,7 +130,7 @@
 				</entry>
 			</meta-data>
 		</dynamic-element>
-		<dynamic-element dataType="boolean" indexType="keyword" localizable="true" name="Show_Linkedin_Link1" readOnly="false" repeatable="false" required="false" showLabel="true" type="checkbox" width="">
+		<dynamic-element dataType="boolean" indexType="keyword"  name="Show_Linkedin_Link1" readOnly="false" repeatable="false" required="false" showLabel="true" type="checkbox" width="">
 			<meta-data locale="en_US">
 				<entry name="label">
 					<![CDATA[Show Linked in Link1]]>
@@ -155,8 +155,8 @@
 			</entry>
 		</meta-data>
 	</dynamic-element>
-	<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Team2" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
-		<dynamic-element dataType="document-library" fieldNamespace="ddm" indexType="keyword" localizable="true" name="Image2" readOnly="false" repeatable="false" required="false" showLabel="true" type="ddm-documentlibrary" width="">
+	<dynamic-element dataType="string" indexType="keyword"  name="Team2" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
+		<dynamic-element dataType="document-library" fieldNamespace="ddm" indexType="keyword"  name="Image2" readOnly="false" repeatable="false" required="false" showLabel="true" type="ddm-documentlibrary" width="">
 			<meta-data locale="en_US">
 				<entry name="label">
 					<![CDATA[Image2]]>
@@ -169,7 +169,7 @@
 				</entry>
 			</meta-data>
 		</dynamic-element>
-		<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Job_Title2" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
+		<dynamic-element dataType="string" indexType="keyword"  name="Job_Title2" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
 			<meta-data locale="en_US">
 				<entry name="label">
 					<![CDATA[Job Title2]]>
@@ -182,8 +182,8 @@
 				</entry>
 			</meta-data>
 		</dynamic-element>
-		<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Job_Description2" readOnly="false" repeatable="false" required="false" showLabel="true" type="textarea" width="small">
-			<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Facebook_Link2" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
+		<dynamic-element dataType="string" indexType="keyword"  name="Job_Description2" readOnly="false" repeatable="false" required="false" showLabel="true" type="textarea" width="small">
+			<dynamic-element dataType="string" indexType="keyword"  name="Facebook_Link2" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
 				<meta-data locale="en_US">
 					<entry name="label">
 						<![CDATA[Facebook Link2]]>
@@ -196,7 +196,7 @@
 					</entry>
 				</meta-data>
 			</dynamic-element>
-			<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Twitter_Link2" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
+			<dynamic-element dataType="string" indexType="keyword"  name="Twitter_Link2" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
 				<meta-data locale="en_US">
 					<entry name="label">
 						<![CDATA[Twitter Link2]]>
@@ -209,7 +209,7 @@
 					</entry>
 				</meta-data>
 			</dynamic-element>
-			<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Linked_in_Link2" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
+			<dynamic-element dataType="string" indexType="keyword"  name="Linked_in_Link2" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
 				<meta-data locale="en_US">
 					<entry name="label">
 						<![CDATA[Linked in Link2]]>
@@ -234,7 +234,7 @@
 				</entry>
 			</meta-data>
 		</dynamic-element>
-		<dynamic-element dataType="boolean" indexType="keyword" localizable="true" name="Show_Facebook_Link2" readOnly="false" repeatable="false" required="false" showLabel="true" type="checkbox" width="">
+		<dynamic-element dataType="boolean" indexType="keyword"  name="Show_Facebook_Link2" readOnly="false" repeatable="false" required="false" showLabel="true" type="checkbox" width="">
 			<meta-data locale="en_US">
 				<entry name="label">
 					<![CDATA[Show Facebook Link2]]>
@@ -247,7 +247,7 @@
 				</entry>
 			</meta-data>
 		</dynamic-element>
-		<dynamic-element dataType="boolean" indexType="keyword" localizable="true" name="Show_Twitter_Link2" readOnly="false" repeatable="false" required="false" showLabel="true" type="checkbox" width="">
+		<dynamic-element dataType="boolean" indexType="keyword"  name="Show_Twitter_Link2" readOnly="false" repeatable="false" required="false" showLabel="true" type="checkbox" width="">
 			<meta-data locale="en_US">
 				<entry name="label">
 					<![CDATA[Show Twitter Link2]]>
@@ -260,7 +260,7 @@
 				</entry>
 			</meta-data>
 		</dynamic-element>
-		<dynamic-element dataType="boolean" indexType="keyword" localizable="true" name="Show_Linkedin_Link2" readOnly="false" repeatable="false" required="false" showLabel="true" type="checkbox" width="">
+		<dynamic-element dataType="boolean" indexType="keyword"  name="Show_Linkedin_Link2" readOnly="false" repeatable="false" required="false" showLabel="true" type="checkbox" width="">
 			<meta-data locale="en_US">
 				<entry name="label">
 					<![CDATA[Show Linked in Link2]]>
@@ -285,8 +285,8 @@
 			</entry>
 		</meta-data>
 	</dynamic-element>
-	<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Team3" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
-		<dynamic-element dataType="document-library" fieldNamespace="ddm" indexType="keyword" localizable="true" name="Image3" readOnly="false" repeatable="false" required="false" showLabel="true" type="ddm-documentlibrary" width="">
+	<dynamic-element dataType="string" indexType="keyword"  name="Team3" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
+		<dynamic-element dataType="document-library" fieldNamespace="ddm" indexType="keyword"  name="Image3" readOnly="false" repeatable="false" required="false" showLabel="true" type="ddm-documentlibrary" width="">
 			<meta-data locale="en_US">
 				<entry name="label">
 					<![CDATA[Image3]]>
@@ -299,7 +299,7 @@
 				</entry>
 			</meta-data>
 		</dynamic-element>
-		<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Job_Title3" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
+		<dynamic-element dataType="string" indexType="keyword"  name="Job_Title3" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
 			<meta-data locale="en_US">
 				<entry name="label">
 					<![CDATA[Job Title3]]>
@@ -312,8 +312,8 @@
 				</entry>
 			</meta-data>
 		</dynamic-element>
-		<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Job_Description3" readOnly="false" repeatable="false" required="false" showLabel="true" type="textarea" width="small">
-			<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Facebook_Link3" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
+		<dynamic-element dataType="string" indexType="keyword"  name="Job_Description3" readOnly="false" repeatable="false" required="false" showLabel="true" type="textarea" width="small">
+			<dynamic-element dataType="string" indexType="keyword"  name="Facebook_Link3" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
 				<meta-data locale="en_US">
 					<entry name="label">
 						<![CDATA[Facebook Link3]]>
@@ -326,7 +326,7 @@
 					</entry>
 				</meta-data>
 			</dynamic-element>
-			<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Twitter_Link3" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
+			<dynamic-element dataType="string" indexType="keyword"  name="Twitter_Link3" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
 				<meta-data locale="en_US">
 					<entry name="label">
 						<![CDATA[Twitter Link3]]>
@@ -339,7 +339,7 @@
 					</entry>
 				</meta-data>
 			</dynamic-element>
-			<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Linked_in_Link3" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
+			<dynamic-element dataType="string" indexType="keyword"  name="Linked_in_Link3" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
 				<meta-data locale="en_US">
 					<entry name="label">
 						<![CDATA[Linked in Link3]]>
@@ -364,7 +364,7 @@
 				</entry>
 			</meta-data>
 		</dynamic-element>
-		<dynamic-element dataType="boolean" indexType="keyword" localizable="true" name="Show_Facebook_Link3" readOnly="false" repeatable="false" required="false" showLabel="true" type="checkbox" width="">
+		<dynamic-element dataType="boolean" indexType="keyword"  name="Show_Facebook_Link3" readOnly="false" repeatable="false" required="false" showLabel="true" type="checkbox" width="">
 			<meta-data locale="en_US">
 				<entry name="label">
 					<![CDATA[Show Facebook Link3]]>
@@ -377,7 +377,7 @@
 				</entry>
 			</meta-data>
 		</dynamic-element>
-		<dynamic-element dataType="boolean" indexType="keyword" localizable="true" name="Show_Twitter_Link3" readOnly="false" repeatable="false" required="false" showLabel="true" type="checkbox" width="">
+		<dynamic-element dataType="boolean" indexType="keyword"  name="Show_Twitter_Link3" readOnly="false" repeatable="false" required="false" showLabel="true" type="checkbox" width="">
 			<meta-data locale="en_US">
 				<entry name="label">
 					<![CDATA[Show Twitter Link3]]>
@@ -390,7 +390,7 @@
 				</entry>
 			</meta-data>
 		</dynamic-element>
-		<dynamic-element dataType="boolean" indexType="keyword" localizable="true" name="Show_Linkedin_Link3" readOnly="false" repeatable="false" required="false" showLabel="true" type="checkbox" width="">
+		<dynamic-element dataType="boolean" indexType="keyword"  name="Show_Linkedin_Link3" readOnly="false" repeatable="false" required="false" showLabel="true" type="checkbox" width="">
 			<meta-data locale="en_US">
 				<entry name="label">
 					<![CDATA[Show Linked in Link3]]>
@@ -415,7 +415,7 @@
 			</entry>
 		</meta-data>
 	</dynamic-element>
-	<dynamic-element dataType="html" fieldNamespace="ddm" indexType="keyword" localizable="true" name="About_Us" readOnly="false" repeatable="false" required="false" showLabel="true" type="ddm-text-html" width="small">
+	<dynamic-element dataType="html" fieldNamespace="ddm" indexType="keyword"  name="About_Us" readOnly="false" repeatable="false" required="false" showLabel="true" type="ddm-text-html" width="small">
 		<meta-data locale="en_US">
 			<entry name="label">
 				<![CDATA[About Us]]>
@@ -428,8 +428,8 @@
 			</entry>
 		</meta-data>
 	</dynamic-element>
-	<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Hiring" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
-		<dynamic-element dataType="string" indexType="keyword" localizable="true" name="Hiring_Description" readOnly="false" repeatable="false" required="false" showLabel="true" type="textarea" width="small">
+	<dynamic-element dataType="string" indexType="keyword"  name="Hiring" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="small">
+		<dynamic-element dataType="string" indexType="keyword"  name="Hiring_Description" readOnly="false" repeatable="false" required="false" showLabel="true" type="textarea" width="small">
 			<meta-data locale="en_US">
 				<entry name="label">
 					<![CDATA[Hiring Description]]>
@@ -442,7 +442,7 @@
 				</entry>
 			</meta-data>
 		</dynamic-element>
-		<dynamic-element dataType="link-to-page" fieldNamespace="ddm" indexType="keyword" localizable="true" name="Link" readOnly="false" repeatable="false" required="false" showLabel="true" type="ddm-link-to-page" width="small">
+		<dynamic-element dataType="link-to-page" fieldNamespace="ddm" indexType="keyword"  name="Link" readOnly="false" repeatable="false" required="false" showLabel="true" type="ddm-link-to-page" width="small">
 			<meta-data locale="en_US">
 				<entry name="label">
 					<![CDATA[Hiring Link]]>
