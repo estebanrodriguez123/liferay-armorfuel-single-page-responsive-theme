@@ -1,4 +1,4 @@
-'use strict';
+// 'use strict';
 
 
 jQuery(document).ready(function ($) {
@@ -7,12 +7,16 @@ jQuery(document).ready(function ($) {
     topMenu = $("#top-navigation"),
     topMenuHeight = topMenu.outerHeight(),
     // All list items
-    menuItems = topMenu.find("a"),
+    menuItems = topMenu.find("a");
     // Anchors corresponding to menu items
-    scrollItems = menuItems.map(function () {
-        var item = $($(this).attr("href"));
-        if (item.length) {
-            return item;
+    scrollItems = menuItems.map(function () {     
+        try {
+            var item = $($(this).attr("href"));
+            if (item.length) {
+                return item;
+            }
+        }
+        catch(err) {
         }
     });
 
@@ -31,7 +35,7 @@ jQuery(document).ready(function ($) {
 	    });
 	});
 	
-	//Initialize header slider.
+// 	//Initialize header slider.
     $('#da-slider').cslider();
 	
 	//Initial mixitup, used for animated filtering portgolio.
@@ -96,9 +100,9 @@ jQuery(document).ready(function ($) {
     });
 
 
-    /*
-    Function for scroliing to top
-    ************************************/
+//     /*
+//     Function for scroliing to top
+//     ************************************/
     $('.scrollup').click(function () {
         $("html, body").animate({
             scrollTop: 0
@@ -169,9 +173,9 @@ jQuery(document).ready(function ($) {
     });
     
     
-    $('#plu-btn-navbar').on('click', function(event){
-    	$('#plu-nav-collapse').toogleClass('collapsed');
-    });
+    // $('#plu-btn-navbar').on('click', function(event){
+    // 	$('#plu-nav-collapse').toogleClass('collapsed');
+    // });
     /************************
     Animate elements
     *************************/
