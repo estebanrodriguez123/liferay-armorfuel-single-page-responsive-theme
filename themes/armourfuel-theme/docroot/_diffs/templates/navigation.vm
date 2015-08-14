@@ -19,17 +19,21 @@
                                 #if ($nav_item.isSelected())
                                     <li class="active dropdown"><a href="#home" class="dropdown-toggle" data-toogle="dropdown">Home</a>
                                 #else
-                                    <li class="active dropdown"><a href="$nav_item.getURL()" class="dropdown-toggle" data-toogle="dropdown">Home</a>
+                                    <li class="dropdown"><a href="$nav_item.getURL()" class="dropdown-toggle" data-toogle="dropdown">Home</a>
                                 #end
                                     <ul class="dropdown-menu">
                                         <li><a href="#service">Services</a></li> 
                                         <li><a href="#portfolio">Portfolio</a></li> 
+                                        <li><a href="#clients">Clients</a></li>                                         
                                         <li><a href="#about">About</a></li> 
-                                        <li><a href="#clients">Clients</a></li> 
                                     </ul>
                                 </li>
                             #else
-                                <li><a href="$nav_item.getURL()">$nav_item.getName()</a></li>
+                                #if ($nav_item.isSelected())
+                                    <li class="active"><a href="$nav_item.getURL()">$nav_item.getName()</a></li>
+                                #else
+                                    <li><a href="$nav_item.getURL()">$nav_item.getName()</a></li>
+                                #end
                             #end
                          #end
                     </ul>

@@ -46,18 +46,18 @@ jQuery(document).ready(function ($) {
     });
     
   //Initial Out clients slider in client section
-    $('#client-slider').bxSlider({
-        pager: false,
-        minSlides: 1,
-        maxSlides: 5,
-        moveSlides: 2,
-        slideWidth: 210,
-        slideMargin: 25,
-        prevSelector: $('#client-prev'),
-        nextSelector: $('#client-next'),
-        prevText: '<i class="icon-chevron-left"></i>',
-        nextText: '<i class="icon-chevron-right"></i>'
-    });
+    // $('#client-slider').bxSlider({
+    //     pager: false,
+    //     minSlides: 1,
+    //     maxSlides: 5,
+    //     moveSlides: 2,
+    //     slideWidth: 210,
+    //     slideMargin: 25,
+    //     prevSelector: $('#client-prev'),
+    //     nextSelector: $('#client-next'),
+    //     prevText: '<i class="icon-chevron-left"></i>',
+    //     nextText: '<i class="icon-chevron-right"></i>'
+    // });
 
     $('input, textarea').placeholder();
 
@@ -90,13 +90,14 @@ jQuery(document).ready(function ($) {
         cur = cur[cur.length - 1];
         var id = cur && cur.length ? cur[0].id : "";
 
-        if (lastId !== id) {
-            lastId = id;
-            // Set/remove active class
-            menuItems
-                .parent().removeClass("active")
-                .end().filter("[href=#" + id + "]").parent().addClass("active");
-        }
+        // if (lastId !== id) {
+        //     lastId = id;
+        //     // Set/remove active class
+        //     menuItems
+        //         .parent().removeClass("active")
+        //         .end().filter("[href=#" + id + "]").parent().addClass("active");
+        // }
+        
     });
 
 
@@ -199,5 +200,29 @@ jQuery(document).ready(function ($) {
             });
         }
     });
+
+    /************************
+    Slider config
+    *************************/
+
+    var owl = $("#owl-demo");
+
+    $("#owl-demo").owlCarousel({
+        autoPlay: false, //Set AutoPlay to 3 seconds
+        items : 4,
+        itemsDesktop : [1199,4],
+        itemsDesktopSmall : [979,3],
+        itemsTablet: [600,3],
+        itemsTablet: [479,1]
+    });
+
+    $(".nextc").click(function(){
+        owl.trigger('owl.next');
+    })
+
+    $(".prevc").click(function(){
+        owl.trigger('owl.prev');
+    })
+
 
 });

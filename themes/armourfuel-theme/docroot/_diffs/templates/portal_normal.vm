@@ -13,7 +13,8 @@
 	
 	<link rel="stylesheet" type="text/css" href="$css_folder/pluton.css" />
 	<link rel="stylesheet" type="text/css" href="$css_folder/jquery.cslider.css" />
-	<link rel="stylesheet" type="text/css" href="$css_folder/jquery.bxslider.css" />
+	<link rel="stylesheet" type="text/css" href="$css_folder/custom.css" />
+	<link rel="stylesheet" type="text/css" href="$css_folder/owl.carousel.css" />
 </head>
 
 <body class="$css_class">
@@ -87,9 +88,9 @@ AUI().applyConfig({
 <script type="text/javascript" src="$javascript_folder/jquery.mixitup.js"></script>
 <script type="text/javascript" src="$javascript_folder/modernizr.custom.js"></script>
 <script type="text/javascript" src="$javascript_folder/jquery.cslider.js"></script>
-<script type="text/javascript" src="$javascript_folder/jquery.bxslider.js"></script>
 <script type="text/javascript" src="$javascript_folder/jquery.placeholder.js"></script>
 <script type="text/javascript" src="$javascript_folder/bootstrap.js"></script>
+<script type="text/javascript" src="$javascript_folder/owl.carousel.js"></script>
 <!-- Load google maps api and call initializeMap function defined in main.js -->
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&amp;callback=initializeMap"></script>
 <script type="text/javascript" src="$javascript_folder/app.js"></script>
