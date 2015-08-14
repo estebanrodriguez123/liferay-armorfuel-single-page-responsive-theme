@@ -1,3 +1,5 @@
+ @import 'https://fonts.googleapis.com/css?family=Roboto:400,300,700,900';
+
  /* override */
  .aui body{
  	padding:0px;
@@ -10,6 +12,8 @@
  #wrapper{ 
  	padding:0px; 
  }
+
+
  
 /**********************************************************************
 1. General
@@ -21,6 +25,7 @@
     font-size:17px;
     line-height:20px;
     margin: 0px;
+    font-weight: 600;
 }
 .plu a {
     color:#181A1C;
@@ -173,6 +178,44 @@ BS navbar rules
 .plu .nav > li > a:hover, .plu .nav > li > a:focus{
 	background-color: #181A1C;
 }
+
+.plu-navbar .nav > li.dropdown:hover .dropdown-menu{
+    display: block;
+    margin-top: 0;
+}
+
+.plu-navbar .nav > li >ul.dropdown-menu{
+    background: #181A1C;
+}
+
+.plu-navbar .nav > li >ul.dropdown-menu >li > a{
+    color:white;
+} 
+
+.plu-navbar .nav > li > a:focus, .plu-navbar .nav > li > ul.dropdown-menu > li > a:focus{
+    background-image: none;
+    background-color: transparent; 
+    filter:none;
+}
+
+.plu-navbar .nav > li >ul.dropdown-menu >li.active > a, .plu-navbar .nav > li >ul.dropdown-menu >li.active > a:focus{
+    background-image: none;
+    background-color: transparent;
+    filter:none;
+}
+
+.plu-navbar .nav > li > ul.dropdown-menu > li > a:hover, .plu-navbar .nav > li > ul.dropdown-menu > li.active > a {
+  background-color: #181A1C;
+  background-image: none; 
+  filter:none;
+  -webkit-box-shadow: inset 0 0 0 1px #FECE1A;
+  -moz-box-shadow: inset 0 0 0 1px #FECE1A;
+  -ms-box-shadow: inset 0 0 0 1px #FECE1A;  
+  box-shadow: inset 0 0 0 1px #FECE1A;
+  transition: box-shadow ease 0.1s;
+} 
+
+
 /******
 2. Layout
 **********************************************************************/
@@ -731,6 +774,7 @@ p.testimonial-text{
     position:relative;
     height:500px;
 }
+
 .map-canvas {
     position:absolute;
     margin-bottom:20px;
@@ -742,6 +786,7 @@ p.testimonial-text{
     top:0;
     right:0;
 }
+
 .contact .social {
     display: inline-block;
     margin-left:0;
@@ -796,6 +841,21 @@ p.plu-info-mail {
 .black {
     color:#181A1C;
 }
+
+/*********************************************************************
+                        Clients Slider
+*********************************************************************/
+
+#owl-demo .item{
+    margin: 10px;
+}
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
 /*
 3.8 Footer
 ********************************************************************/
@@ -830,6 +890,32 @@ p.plu-info-mail {
     top:7px;
     color:#fff;
 }
+
+/*********************************************************************
+                        Layout Column 1-1-1
+*********************************************************************/
+
+.primary-column-color{
+    background: #FECE1A;
+    min-height: 200px;
+}
+
+.cus_triangle {
+    margin: 0 auto;
+    text-align: center;
+    width: 0;
+    height: 0;
+    border-top: 30px solid #181A1C;
+    border-left: 585px outset transparent;
+    border-right: 585px outset transparent;
+    position: relative;
+}
+
+.da-slider {
+    z-index: 100;
+}
+
+
 /*
 4 Responsible
 ********************************************************************/
@@ -888,6 +974,11 @@ p.plu-info-mail {
         width: 100%;
         display: inherit;
     }
+
+    .plu-navbar .nav > li > ul.dropdown-menu {
+        display:block;
+    }
+
     .thumbnail a.more {
         margin-left:-21px;
         width:40px;
@@ -914,6 +1005,12 @@ p.plu-info-mail {
      }
 }
 @media (max-width: 767px) {
+
+    /***Override***/
+    .da-slide .da-img {
+        overflow: hidden;
+    }
+    
     p.plu-info-mail {
         width:90%;
         padding:15px 0px;

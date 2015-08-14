@@ -13,13 +13,29 @@
                 </button>
                 <!-- Main navigation -->
                 <div id="plu-nav-collapse" class="nav-collapse collapse pull-right">
-                    <ul class="nav" id="top-navigation">
-                        <li class="active"><a href="#home">Home</a></li>
-                        <li><a href="#service">Services</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#clients">Clients</a></li>        
-                        <li><a href="#contact">Contact</a></li>
+                    <ul class="nav" id="top-navigation"></a>          
+                        #foreach($nav_item in $nav_items)
+                            #if($nav_item.getName().toLowerCase() == "home")
+                                #if ($nav_item.isSelected())
+                                    <li class="active dropdown"><a href="#home" class="dropdown-toggle" data-toogle="dropdown">Home</a>
+                                #else
+                                    <li class="dropdown"><a href="$nav_item.getURL()" class="dropdown-toggle" data-toogle="dropdown">Home</a>
+                                #end
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#service">Services</a></li> 
+                                        <li><a href="#portfolio">Portfolio</a></li> 
+                                        <li><a href="#clients">Clients</a></li>                                         
+                                        <li><a href="#about">About</a></li> 
+                                    </ul>
+                                </li>
+                            #else
+                                #if ($nav_item.isSelected())
+                                    <li class="active"><a href="$nav_item.getURL()">$nav_item.getName()</a></li>
+                                #else
+                                    <li><a href="$nav_item.getURL()">$nav_item.getName()</a></li>
+                                #end
+                            #end
+                         #end
                     </ul>
                 </div>
                 <!-- End main navigation -->
