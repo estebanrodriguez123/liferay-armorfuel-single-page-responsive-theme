@@ -8,9 +8,15 @@ AUI().ready(
 	loaded.
 	*/
 
-	function() {	
-		
-	}
+		'liferay-hudcrumbs', 'liferay-navigation-interaction', 'liferay-sign-in-modal',
+		function(A) {
+			var navigation = A.one('#navigation');
+
+			if (navigation) {
+				navigation.plug(Liferay.NavigationInteraction);
+			}
+
+		}
 );
 
 Liferay.Portlet.ready(

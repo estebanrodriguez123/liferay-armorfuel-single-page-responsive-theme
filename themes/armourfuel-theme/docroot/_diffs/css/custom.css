@@ -920,6 +920,12 @@ p.plu-info-mail {
 4 Responsible
 ********************************************************************/
  @media (min-width: 1200px) {
+ 
+ 	  #banner #plu-navbar .container{
+    	max-width:1170px;
+    	width: 100%;
+    }
+    
     .thumbnail a.more {
         margin-left:-41px;
         width:80px;
