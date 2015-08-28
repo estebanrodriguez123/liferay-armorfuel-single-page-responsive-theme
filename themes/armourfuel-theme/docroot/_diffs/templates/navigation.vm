@@ -19,16 +19,24 @@
                                 #if($nav_item.getName().toLowerCase() == "home")
                                     #if ($nav_item.isSelected())
                                         <li class="active dropdown "><a href="#home" class="dropdown-toggle" data-toogle="dropdown">Home</a>
-                                    #else
-                                        <li class="dropdown"><a href="$nav_item.getURL()" class="dropdown-toggle" data-toogle="dropdown">Home</a>
-                                    #end
-                                        <ul class="dropdown-menu">
+                                        	 <ul class="dropdown-menu">
                                             <li><a href="#service">Services</a></li> 
                                             <li><a href="#portfolio">Portfolio</a></li> 
                                             <li><a href="#clients">Clients</a></li>                                         
                                             <li><a href="#about">About</a></li> 
-                                        </ul>
-                                    </li>
+                                       	    </ul>
+                                        </li>
+                                    #else
+                                        <li class="dropdown"><a href="$nav_item.getURL()" class="dropdown-toggle" data-toogle="dropdown">Home</a>
+                                         <ul class="dropdown-menu">
+                                            <li><a href="$nav_item.getURL()#service">Services</a></li> 
+                                            <li><a href="$nav_item.getURL()#portfolio">Portfolio</a></li> 
+                                            <li><a href="$nav_item.getURL()#clients">Clients</a></li>                                         
+                                            <li><a href="$nav_item.getURL()#about">About</a></li> 
+                                       	 </ul>
+                                    	</li>
+                                    #end
+                                      
                                 #else
                                     #if ($nav_item.isSelected())
                                         <li class="active"><a href="$nav_item.getURL()">$nav_item.getName()</a></li>
