@@ -1,4 +1,4 @@
-'use strict';
+// 'use strict';
 
 
 jQuery(document).ready(function ($) {
@@ -7,12 +7,16 @@ jQuery(document).ready(function ($) {
     topMenu = $("#top-navigation"),
     topMenuHeight = topMenu.outerHeight(),
     // All list items
-    menuItems = topMenu.find("a"),
+    menuItems = topMenu.find("a");
     // Anchors corresponding to menu items
-    scrollItems = menuItems.map(function () {
-        var item = $($(this).attr("href"));
-        if (item.length) {
-            return item;
+    scrollItems = menuItems.map(function () {     
+        try {
+            var item = $($(this).attr("href"));
+            if (item.length) {
+                return item;
+            }
+        }
+        catch(err) {
         }
     });
 
@@ -31,7 +35,7 @@ jQuery(document).ready(function ($) {
 	    });
 	});
 	
-	//Initialize header slider.
+// 	//Initialize header slider.
     $('#da-slider').cslider();
 	
 	//Initial mixitup, used for animated filtering portgolio.
@@ -42,18 +46,18 @@ jQuery(document).ready(function ($) {
     });
     
   //Initial Out clients slider in client section
-    $('#client-slider').bxSlider({
-        pager: false,
-        minSlides: 1,
-        maxSlides: 5,
-        moveSlides: 2,
-        slideWidth: 210,
-        slideMargin: 25,
-        prevSelector: $('#client-prev'),
-        nextSelector: $('#client-next'),
-        prevText: '<i class="icon-chevron-left"></i>',
-        nextText: '<i class="icon-chevron-right"></i>'
-    });
+    // $('#client-slider').bxSlider({
+    //     pager: false,
+    //     minSlides: 1,
+    //     maxSlides: 5,
+    //     moveSlides: 2,
+    //     slideWidth: 210,
+    //     slideMargin: 25,
+    //     prevSelector: $('#client-prev'),
+    //     nextSelector: $('#client-next'),
+    //     prevText: '<i class="icon-chevron-left"></i>',
+    //     nextText: '<i class="icon-chevron-right"></i>'
+    // });
 
     $('input, textarea').placeholder();
 
@@ -86,19 +90,20 @@ jQuery(document).ready(function ($) {
         cur = cur[cur.length - 1];
         var id = cur && cur.length ? cur[0].id : "";
 
-        if (lastId !== id) {
-            lastId = id;
-            // Set/remove active class
-            menuItems
-                .parent().removeClass("active")
-                .end().filter("[href=#" + id + "]").parent().addClass("active");
-        }
+        // if (lastId !== id) {
+        //     lastId = id;
+        //     // Set/remove active class
+        //     menuItems
+        //         .parent().removeClass("active")
+        //         .end().filter("[href=#" + id + "]").parent().addClass("active");
+        // }
+        
     });
 
 
-    /*
-    Function for scroliing to top
-    ************************************/
+//     /*
+//     Function for scroliing to top
+//     ************************************/
     $('.scrollup').click(function () {
         $("html, body").animate({
             scrollTop: 0
@@ -169,9 +174,9 @@ jQuery(document).ready(function ($) {
     });
     
     
-    $('#plu-btn-navbar').on('click', function(event){
-    	$('#plu-nav-collapse').toogleClass('collapsed');
-    });
+    // $('#plu-btn-navbar').on('click', function(event){
+    // 	$('#plu-nav-collapse').toogleClass('collapsed');
+    // });
     /************************
     Animate elements
     *************************/
@@ -195,5 +200,29 @@ jQuery(document).ready(function ($) {
             });
         }
     });
+
+    /************************
+    Slider config
+    *************************/
+
+    var owl = $("#owl-demo");
+
+    $("#owl-demo").owlCarousel({
+        autoPlay: false, //Set AutoPlay to 3 seconds
+        items : 4,
+        itemsDesktop : [1199,4],
+        itemsDesktopSmall : [979,3],
+        itemsTablet: [600,3],
+        itemsTablet: [479,1]
+    });
+
+    $(".nextc").click(function(){
+        owl.trigger('owl.next');
+    })
+
+    $(".prevc").click(function(){
+        owl.trigger('owl.prev');
+    })
+
 
 });
